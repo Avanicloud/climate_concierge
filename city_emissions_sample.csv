@@ -1,0 +1,11 @@
+city,state,sector,metric,unit,value,year
+Oakland,CA,electricity,per_capita_emissions,metric_tons,2.9,2023
+Oakland,CA,transportation,per_capita_emissions,metric_tons,4.3,2023
+Oakland,CA,buildings,electricity_mix_percentage,renewables_pct,37.5,2023
+San Francisco,CA,electricity,per_capita_emissions,metric_tons,2.1,2023
+San Francisco,CA,transportation,per_capita_emissions,metric_tons,3.5,2023
+San Jose,CA,electricity,per_capita_emissions,metric_tons,3.2,2023
+San Jose,CA,buildings,electricity_mix_percentage,renewables_pct,42.1,2023
+Fresno,CA,transportation,per_capita_emissions,metric_tons,5.7,2023
+Fresno,CA,buildings,energy_burden,percent_income,6.5,2023
+

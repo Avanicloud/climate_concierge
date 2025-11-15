@@ -1,0 +1,51 @@
+graph TD
+    subgraph Client
+        CLI[CLI / Notebook UI]
+    end
+
+    subgraph Orchestrator["Climate Concierge Orchestrator"]
+        LIAISON[Community Liaison Agent]
+        POLICY[Policy Researcher Agent]
+        FUNDING[Funding Scout Agent]
+        PLANNER[Action Planner Agent]
+        COMMS[Communications Coach Agent]
+        EVAL[Evaluator Agent]
+    end
+
+    subgraph Memory
+        SESSION[Session Memory Service]
+        BANK[Long-term Memory Bank]
+    end
+
+    subgraph Tools
+        CIVIC[Civic Data Tool]
+        GRANTS[Grant Finder Tool]
+        IMPACT[Impact Simulator]
+        TIMELINE[Timeline Builder]
+        CALENDAR[Calendar / Volunteer Stub]
+    end
+
+    subgraph Observability
+        LOGS[Structured Logs]
+        METRICS[Prometheus Metrics]
+        TRACES[Trace Store]
+    end
+
+    CLI --> LIAISON
+    LIAISON --> POLICY
+    LIAISON --> PLANNER
+    POLICY --> IMPACT
+    POLICY --> CIVIC
+    FUNDING --> GRANTS
+    PLANNER --> TIMELINE
+    PLANNER --> IMPACT
+    COMMS --> CALENDAR
+    COMMS --> BANK
+    EVAL --> LOGS
+    EVAL --> METRICS
+    Orchestrator --> SESSION
+    Orchestrator --> BANK
+    Orchestrator --> LOGS
+    Orchestrator --> TRACES
+    Orchestrator --> METRICS
+

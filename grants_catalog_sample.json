@@ -1,0 +1,36 @@
+[
+  {
+    "id": "grant-001",
+    "title": "Community Solar Acceleration Microgrant",
+    "sponsor": "Department of Energy",
+    "amount": 25000,
+    "geography": ["US"],
+    "deadline": "2025-12-31",
+    "tags": ["solar", "renewables", "community"],
+    "match_requirement": 0.1,
+    "summary": "Supports planning and pilot installation of community solar arrays for municipal or nonprofit facilities serving frontline communities."
+  },
+  {
+    "id": "grant-002",
+    "title": "Urban Heat Island Mitigation Fund",
+    "sponsor": "EPA",
+    "amount": 40000,
+    "geography": ["US-CA", "US-NY", "US-MA", "US-WA"],
+    "deadline": "2025-10-01",
+    "tags": ["cooling", "tree canopy", "climate resilience"],
+    "match_requirement": 0.0,
+    "summary": "Funds neighborhood-led shade, reflective roofing, and cooling center projects in disadvantaged census tracts."
+  },
+  {
+    "id": "grant-003",
+    "title": "Clean Mobility for All Challenge",
+    "sponsor": "Green Cities Alliance",
+    "amount": 15000,
+    "geography": ["US-CA", "US-AZ", "US-NV"],
+    "deadline": "2026-02-15",
+    "tags": ["transportation", "EV", "equity"],
+    "match_requirement": 0.05,
+    "summary": "Supports community organizations piloting electric shuttle, e-bike lending, or last-mile mobility programs for low-income residents."
+  }
+]
+
